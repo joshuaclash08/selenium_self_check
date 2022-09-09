@@ -46,7 +46,7 @@ https://www.python.org/downloads/release/python-3913/
 
 **자기 이름**
 
-**생년월일 써주세요** ex) 2008년 6월 14일 이면 >> 080614 적어주세요
+**생년월일 써주세요** ex) 2008년 6월 14일 이면 >> `080614` 적어주세요
 
 ![passss](https://user-images.githubusercontent.com/61219866/189305084-e970eb47-37f0-484f-91d4-e8d396d370f8.png)
 
