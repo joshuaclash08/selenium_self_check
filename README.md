@@ -12,16 +12,7 @@ https://hcs.eduro.go.kr/#/loginHome
 
 # 하는법
 
-![다운로드](https://user-images.githubusercontent.com/61219866/189055159-eabccaf1-e65c-420b-8380-c57f2ac23157.png)
-위 사진처럼 zip 파일로 다운로드를 해주시고
-
-![zip](https://user-images.githubusercontent.com/61219866/189055749-a1075a8d-c70e-4803-9640-fa889d739ddb.png)
-
 https://www.python.org/downloads/release/python-3913/
-
-chrome://settings/help
-
-https://chromedriver.chromium.org/downloads
 
 
 # 개인정보 설정
