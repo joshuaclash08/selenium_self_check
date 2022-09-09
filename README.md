@@ -19,7 +19,7 @@ https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨
    
 - **2.**
 
-**제발** `Add Python 3.9 to PATH` 체크해주세요, 필수입니다
+**!!!!!!!!!!!!!!!!!!!제발!!!!!!!!!!!!!!!!!!!** `Add Python 3.9 to PATH` 체크해주세요, 필수입니다
 
 ![python_install](https://user-images.githubusercontent.com/61219866/189372511-e5ce77e6-6c7e-4f0a-869a-3a6cf1809a54.png)
 
@@ -30,6 +30,10 @@ https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨
 다운로드가 끝나셨으면 `close` 버튼을 눌러주세요
 
 - **3.**
+
+`Code`를 클릭하신 다음에 `Download ZIP` 를 눌러주세요
+
+![githubDOWN](https://user-images.githubusercontent.com/61219866/189377601-923f0c70-1fa8-4aff-ae50-d9bbb8a91a8b.png)
 
 
 
