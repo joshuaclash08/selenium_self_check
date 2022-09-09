@@ -1,18 +1,36 @@
 # selenium_self_check
 
 # (아직 수동인) 자동 건강상태 자가진단
-https://hcs.eduro.go.kr/#/loginHome
-자가진단 하실떄 항상 로그인해서 비밀번호 입력하고...설문조사 버튼 클릭하고...아니요 무한반복....그리고 확인 버튼...\
-이제는 일찍 일어나서 부모님이 해주시거나 핸드폰 켜서 앱에 들어가실 필요도 없습니다!
-딱 한번만 설정하시면 끝!
+https://hcs.eduro.go.kr/#/loginHome << chrome driver (selenium) 이용해서 자동으로 자가진단 해줌
 
 [그냥 재미로 만든거고 아직 테스트입니다.]
 
 (추후에 서버에 저장하고 특정 시간에 실행하거나, 앱으로 실행 가능하게 제작하겠습니다)
 
-# 하는법
+# 사용법
 
-https://www.python.org/downloads/release/python-3913/
+- **1.**
+
+https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨터에 맞는걸로 깔아주세요
+
+![pyinstall](https://user-images.githubusercontent.com/61219866/189373384-7a5984d4-371a-4c65-b613-31431451b953.png)
+
+   `Windows installer (64-bit)` 추천
+   
+- **2.**
+
+**제발** `Add Python 3.9 to PATH` 체크해주세요, 필수입니다
+
+![python_install](https://user-images.githubusercontent.com/61219866/189372511-e5ce77e6-6c7e-4f0a-869a-3a6cf1809a54.png)
+
+그다음에 `Install Now` 클릭하고 기달려주세요....
+
+![pyDONE](https://user-images.githubusercontent.com/61219866/189375542-2719ac25-a1f9-4410-a41f-e0b62a1e51b3.png)
+
+다운로드가 끝나셨으면 `close` 버튼을 눌러주세요
+
+- **3.**
+
 
 
 # 개인정보 설정
