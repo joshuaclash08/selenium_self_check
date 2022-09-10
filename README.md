@@ -22,7 +22,7 @@ https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨
 ![python_install](https://user-images.githubusercontent.com/61219866/189372511-e5ce77e6-6c7e-4f0a-869a-3a6cf1809a54.png)
 
 
-- **3.**
+# 2. 소스 코드 다운로드, 세팅
 
 `Code`를 클릭하신 다음에 `Download ZIP` 를 눌러주세요
 
