@@ -28,6 +28,17 @@ https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨
 
 ![githubDOWN](https://user-images.githubusercontent.com/61219866/189377601-923f0c70-1fa8-4aff-ae50-d9bbb8a91a8b.png)
 
+압축을 풀어주신 다음에 `install.bat` 를 실행해주세요, 파이썬(Python) 패키지를 다운받아줌
+
+무슨 패키지를 다운받는지 알고싶으면 `requirements.txt` 를 확인해주세요
+
+![image](https://user-images.githubusercontent.com/61219866/189472465-6fda4147-e130-4d46-82dc-8e0d57cf4ce5.png)
+
+이렇게 뜨는게 정상임 (이게 정상이라고 다른 패키지도 깔아보라니까ㅡㅡ)
+
+![image](https://user-images.githubusercontent.com/61219866/189472862-04f6d8c3-bf78-40c8-9b2e-1b67075fcd6a.png)
+
+
 
 
 # 개인정보 설정
