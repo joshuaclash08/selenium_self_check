@@ -11,10 +11,12 @@ https://hcs.eduro.go.kr/#/loginHome << chrome driver (selenium) 이용해서 자
 
 https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨터에 맞는걸로 깔아주세요
 
+   `Windows installer (64-bit)` 추천
+
 ![pyinstall](https://user-images.githubusercontent.com/61219866/189373384-7a5984d4-371a-4c65-b613-31431451b953.png)
 
-   `Windows installer (64-bit)` 추천
-   
+
+
 **`Add Python 3.9 to PATH` 체크해주세요, 필수입니다**
 
 ![python_install](https://user-images.githubusercontent.com/61219866/189372511-e5ce77e6-6c7e-4f0a-869a-3a6cf1809a54.png)
