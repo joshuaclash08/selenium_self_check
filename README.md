@@ -28,20 +28,27 @@ https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨
 
 ![githubDOWN](https://user-images.githubusercontent.com/61219866/189377601-923f0c70-1fa8-4aff-ae50-d9bbb8a91a8b.png)
 
-압축을 풀어주신 다음에 `install.bat` 를 실행해주세요, 파이썬(Python) 패키지를 다운받아줌
+압축을 풀어주신 다음에 `install.bat` 를 실행해주세요 (파이썬 패키지를 다운받아줌)
 
 무슨 패키지를 다운받는지 알고싶으면 `requirements.txt` 를 확인해주세요
 
-![image](https://user-images.githubusercontent.com/61219866/189472465-6fda4147-e130-4d46-82dc-8e0d57cf4ce5.png)
+![image](https://user-images.githubusercontent.com/61219866/189472465-6fda4147-e130-4d46-82dc-8e0d57cf4ce5.png) ![image](https://user-images.githubusercontent.com/61219866/189472862-04f6d8c3-bf78-40c8-9b2e-1b67075fcd6a.png)
 
-이렇게 뜨는게 정상임 (이게 정상이라고 다른 패키지도 깔아보라니까ㅡㅡ)
+패키지를 다 다운받고 창이 닫아지면(다운로드 완료된거임) `install.bat` `requirements.txt` `LICENSE` 은 지우셔도 상관없음
 
-![image](https://user-images.githubusercontent.com/61219866/189472862-04f6d8c3-bf78-40c8-9b2e-1b67075fcd6a.png)
+![image](https://user-images.githubusercontent.com/61219866/189483098-33ce31cd-a758-4681-b239-1856eb520a6c.png)
+
+# json 개인정보 설정방법
+
+`User_Information.json`파일을 열어주세요 (메모장으로 열어도 상광 없음)
 
 
 
+![image](https://user-images.githubusercontent.com/61219866/189483568-f66a2937-60dc-4c21-ab67-b1594789adda.png)
 
-# 개인정보 설정
+![image](https://user-images.githubusercontent.com/61219866/189487715-049478f9-b74b-45f4-8598-70e70a4dd765.png)
+
+
 **지역**
 - 서울특별시 = 2
 - 부산광역시 = 3
