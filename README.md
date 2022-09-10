@@ -42,8 +42,6 @@ https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨
 
 `User_Information.json`파일을 열어주세요 (메모장으로 열어도 상광 없음)
 
-
-
 ![image](https://user-images.githubusercontent.com/61219866/189483568-f66a2937-60dc-4c21-ab67-b1594789adda.png)
 
 ![image](https://user-images.githubusercontent.com/61219866/189487715-049478f9-b74b-45f4-8598-70e70a4dd765.png)
