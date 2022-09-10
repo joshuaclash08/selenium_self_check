@@ -9,7 +9,7 @@ https://hcs.eduro.go.kr/#/loginHome << chrome driver (selenium) 이용해서 자
 
 # 1. 파이썬(Python) 설치 방법 [필수]
 
-https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨터에 맞는걸로 깔아주세요
+https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨터에 맞는걸로 깔아주세요 (3.9 ~ 버전 권장)
 
    `Windows installer (64-bit)` 추천
 
