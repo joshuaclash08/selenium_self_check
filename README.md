@@ -111,10 +111,21 @@ ex) 2008년 6월 14일 이면 >> `080614` 적어주세요
 ![image](https://user-images.githubusercontent.com/61219866/189515401-4b93409e-0953-40a9-8322-39f6ed57526d.png)
 
 ![passss](https://user-images.githubusercontent.com/61219866/189305084-e970eb47-37f0-484f-91d4-e8d396d370f8.png)
+#
+EX)
+![image](https://user-images.githubusercontent.com/61219866/189515564-c92817ed-d82d-4a50-9ec6-fd8638e5bb7a.png)
+
+그리고 마지막으로 `Ctrl + S` 를 눌러서 저장해주시고 닫아주시면, 개인정보 설정은 끝
 
 # 실행 방법 (오류 발생시)
 
 `install.bat` `requirements.txt` `LICENSE` `README.md` 은 지우셔도 상관없음
 
-![image](https://user-images.githubusercontent.com/61219866/189483098-33ce31cd-a758-4681-b239-1856eb520a6c.png)
+![image](https://user-images.githubusercontent.com/61219866/189515493-fc89bfc7-340c-436a-ab5a-4cf5cdd42e25.png)
+
+이제 `run_script` 를 실행해주시면
+
+![image](https://user-images.githubusercontent.com/61219866/189515655-01869002-8908-410a-8b6a-073e84a6831d.png)
+
+콘솔창과 크롬창이 뜨면서 자동으로 자가진단을 해줌
 
