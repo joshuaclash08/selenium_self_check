@@ -117,15 +117,22 @@ EX)
 
 그리고 마지막으로 `Ctrl + S` 를 눌러서 저장해주시고 닫아주시면, 개인정보 설정은 끝
 
-# 실행 방법 (오류 발생시)
+# 실행 방법
 
 `install.bat` `requirements.txt` `LICENSE` `README.md` 은 지우셔도 상관없음
 
 ![image](https://user-images.githubusercontent.com/61219866/189515493-fc89bfc7-340c-436a-ab5a-4cf5cdd42e25.png)
 
-이제 `run_script` 를 실행해주시면
+이제 `run_script` 를 실행해주시면...
 
 ![image](https://user-images.githubusercontent.com/61219866/189515655-01869002-8908-410a-8b6a-073e84a6831d.png)
 
 콘솔창과 크롬창이 뜨면서 자동으로 자가진단을 해줌
 
+![image](https://user-images.githubusercontent.com/61219866/189515943-ba31377e-6dff-47c7-8c0f-f6916adb9ccb.png)
+#
+**콘솔창에 이런거 뜨는게 정상임**
+![just_know](https://user-images.githubusercontent.com/61219866/189515967-833fa28d-ab84-412a-bd8f-b89b759c591f.png)
+![jobb](https://user-images.githubusercontent.com/61219866/189516052-d20482fb-9af9-486e-8ccb-62b016b9df27.png)
+
+# 오류 발생시
