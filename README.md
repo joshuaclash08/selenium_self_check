@@ -136,3 +136,7 @@ EX)
 ![jobb](https://user-images.githubusercontent.com/61219866/189516052-d20482fb-9af9-486e-8ccb-62b016b9df27.png)
 
 # 오류 발생시
+업데이트나 자가진단 설문조사 목록이 변경되거나 등등.....
+
+걍 안된다면 `issue` 에다가 올려주세요 (콘솔에 적혀있는 오류랑 어느 부분에서 막혔는지 알려주셈, 사진으로 주면 좋고)
+![image](https://user-images.githubusercontent.com/61219866/189516155-87747470-9ef2-4b0c-add3-17c444a6056f.png)
