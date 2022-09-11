@@ -36,7 +36,7 @@ https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨
 
 패키지를 다 다운받고 창이 닫아지면 다운로드가 완료된거임
 
-# json 개인정보 설정방법
+# 3. json 개인정보 설정방법
 
 `User_Information.json`파일을 열어주세요 (메모장으로 열어도 상광 없음)
 
@@ -117,7 +117,7 @@ EX)
 
 그리고 마지막으로 `Ctrl + S` 를 눌러서 저장해주시고 닫아주시면, 개인정보 설정은 끝
 
-# 실행 방법
+# 4. 실행 방법
 
 `install.bat` `requirements.txt` `LICENSE` `README.md` 은 지우셔도 상관없음
 
@@ -135,7 +135,7 @@ EX)
 ![just_know](https://user-images.githubusercontent.com/61219866/189515967-833fa28d-ab84-412a-bd8f-b89b759c591f.png)
 ![jobb](https://user-images.githubusercontent.com/61219866/189516052-d20482fb-9af9-486e-8ccb-62b016b9df27.png)
 
-# 오류 발생시
+# 5. 오류 발생시
 업데이트나 자가진단 설문조사 목록이 변경되거나 등등.....
 
 걍 안된다면 `Issues` 에다가 올려주세요 (콘솔에 적혀있는 오류랑 어느 부분에서 막혔는지 알려주셈, 사진으로 주면 좋고)
