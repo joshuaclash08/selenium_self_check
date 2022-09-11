@@ -28,26 +28,29 @@ https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨
 
 ![githubDOWN](https://user-images.githubusercontent.com/61219866/189377601-923f0c70-1fa8-4aff-ae50-d9bbb8a91a8b.png)
 
-압축을 풀어주신 다음에 `install.bat` 를 실행해주세요 (파이썬 패키지를 다운받아줌)
+압축을 풀어주신 다음에 `install.bat` 를 실행해주세요 (selenium 모듈 다운받아줌)
 
 무슨 패키지를 다운받는지 알고싶으면 `requirements.txt` 를 확인해주세요
 
 ![image](https://user-images.githubusercontent.com/61219866/189472465-6fda4147-e130-4d46-82dc-8e0d57cf4ce5.png) ![image](https://user-images.githubusercontent.com/61219866/189472862-04f6d8c3-bf78-40c8-9b2e-1b67075fcd6a.png)
 
-패키지를 다 다운받고 창이 닫아지면(다운로드 완료된거임) `install.bat` `requirements.txt` `LICENSE` 은 지우셔도 상관없음
-
-![image](https://user-images.githubusercontent.com/61219866/189483098-33ce31cd-a758-4681-b239-1856eb520a6c.png)
+패키지를 다 다운받고 창이 닫아지면 다운로드가 완료된거임
 
 # json 개인정보 설정방법
 
 `User_Information.json`파일을 열어주세요 (메모장으로 열어도 상광 없음)
 
-![image](https://user-images.githubusercontent.com/61219866/189483568-f66a2937-60dc-4c21-ab67-b1594789adda.png)
+`"only_read~" :` 는 읽기 전용 (수정 X)
 
-![image](https://user-images.githubusercontent.com/61219866/189487715-049478f9-b74b-45f4-8598-70e70a4dd765.png)
+#
+**지역 [city]**
 
+밑에 있는 표에서 `다니고 있는 학교의 시/도` 를 찾은 다음에, 옆에 있는 숫자를 아래있는 사진처럼 수정해주세요
 
-**지역**
+![image](https://user-images.githubusercontent.com/61219866/189497476-ce582a8a-7da2-4647-a27f-6c0b7f9ada3b.png)
+
+^^^위 사진은 예로 인천광역시를 선택했을떄^^^
+
 - 서울특별시 = 2
 - 부산광역시 = 3
 - 대구광역시 = 4
@@ -65,22 +68,53 @@ https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨
 - 경상북도 = 16
 - 경상남도 = 17
 - 제주특별자치도 = 18
+#
+**학교 레벨 [school_level]**
 
-**학교 레벨**
+밑에 있는 표를 보고 다니고 있는 `학교의 레벨or학교급` 을 찾아서, 옆에 있는 숫자를 입력해주세요
+
+![image](https://user-images.githubusercontent.com/61219866/189497389-62b7df52-093a-4ffb-932f-4f4390f4cd58.png)
+
+^^^위 사진은 예로 중학교를 선택했을떄^^^
+
 - 유치원 = 2
 - 초등학교 = 3
 - 중학교 = 4
 - 고등학교 = 5
 - 특수학교 등 = 6
+#
 
-**학교 이름은 정확하게 써주세요** (다른 학교로 선택될수도 있음)
+**학교 이름 [shool_name]**
 
-**자기 이름**
+학교 이름은 정확하게 써주세요 (비슷한 이름 때문에 다른 학교로 선택될수도 있음)
 
-**생년월일 써주세요** ex) 2008년 6월 14일 이면 >> `080614` 적어주세요
+![image](https://user-images.githubusercontent.com/61219866/189514989-7407d646-c1fc-4ea6-a349-c12042f34379.png)
+
+#
+**이름 [name]**
+
+니 이름
+
+![image](https://user-images.githubusercontent.com/61219866/189515082-aa12171e-bb25-4333-8098-a9453d52fa83.png)
+#
+**생년월일 [YYMMDD]**
+
+ex) 2008년 6월 14일 이면 >> `080614` 적어주세요
+
+![image](https://user-images.githubusercontent.com/61219866/189515151-b4193e44-be34-4fe9-99c0-45010c65620b.png)
+#
+
+**로그인 비밀번호 [password]**
+
+자가진단 로그인할때 항상 쓰는 비밀번호 적어주세요
+
+![image](https://user-images.githubusercontent.com/61219866/189515401-4b93409e-0953-40a9-8322-39f6ed57526d.png)
 
 ![passss](https://user-images.githubusercontent.com/61219866/189305084-e970eb47-37f0-484f-91d4-e8d396d370f8.png)
 
-**자가진단 로그인할때 항상 쓰는 비밀번호 입력**
+# 실행 방법 (오류 발생시)
 
+`install.bat` `requirements.txt` `LICENSE` `README.md` 은 지우셔도 상관없음
+
+![image](https://user-images.githubusercontent.com/61219866/189483098-33ce31cd-a758-4681-b239-1856eb520a6c.png)
 
