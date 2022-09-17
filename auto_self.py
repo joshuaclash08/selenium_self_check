@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import json,time
 chrome_options = Options()
-chrome_options.add_argument('--incognito')
+#chrome_options.add_argument('--headless') 창 안보이게 하기 (추가로 자동으로 모듈 받게 만들기)
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])
