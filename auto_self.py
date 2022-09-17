@@ -7,15 +7,14 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import json,time
-
 chrome_options = Options()
-chrome_options.add_argument('--headless')
+chrome_options.add_argument('--incognito')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-print('아직 테스트 입니다')
+chrome_options.add_experimental_option("excludeSwitches", ["enable-logging"])
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 driver.get('https://hcs.eduro.go.kr/#/loginHome')
-print('- Page loaded.')
+print('- Page loaded. \n- 테스트 전용')
 wait = WebDriverWait(driver, 10) #10초 동안 기도하기
 driver.find_element(By.XPATH, '//*[@id="btnConfirm2"]').click() #GO 버튼 클릭
 wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="schul_name_input"]'))) #학교 검색 clickable 될때까지 대기
@@ -33,7 +32,7 @@ wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="btnConfirm"]'))) #로
 driver.find_element(By.ID, 'user_name_input').send_keys(data['name']) #성명창에다 이름 타이핑
 driver.find_element(By.ID, 'birthday_input').send_keys(data['YYMMDD']) #생년월일창에다 출생 타이핑
 driver.find_element(By.XPATH, '//*[@id="WriteInfoForm"]/table/tbody/tr[4]/td/div/button').click() #보안키패드 창 클릭
-jsonpass = data['password'] 
+jsonpass = data['password']
 driver.find_element(By.CSS_SELECTOR, '[aria-label="' + jsonpass[0] + '"]').click() #첫번째 비밀번호 클릭
 driver.find_element(By.CSS_SELECTOR, '[aria-label="' + jsonpass[1] + '"]').click() #두번째 비밀번호 클릭
 driver.find_element(By.CSS_SELECTOR, '[aria-label="' + jsonpass[2] + '"]').click() #세번째 비밀번호 클릭
@@ -46,5 +45,6 @@ driver.find_element(By.XPATH, '//*[@id="survey_q1a1"]').click() #자가진단중
 driver.find_element(By.XPATH, '//*[@id="survey_q2a3"]').click() #자가진단중....
 driver.find_element(By.XPATH, '//*[@id="survey_q3a1"]').click() #자가진단중.......
 driver.find_element(By.XPATH, '//*[@id="btnConfirm"]').click() #자가진단중!
-print('- DONE.') #종료를 알리는 print MOON
-time.sleep(4)
+print('- DONE. \n- https://github.com/joshuaclash08') #종료를 알리는 print MOON
+time.sleep(1)
+driver.close()
