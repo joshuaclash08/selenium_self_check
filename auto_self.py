@@ -32,7 +32,7 @@ with open("User_Information.json", encoding='utf-8') as f: #User_Information.jso
   data = json.load(f) #가지고 옴
 
 chrome_options = Options()
-if data['창 안보이는 상태 (show: 1, hide: 2)'] == '2':
+if data['창_안보이는_상태 (show: 1, hide: 2)'] == '2':
   chrome_options.add_argument('--headless')#만약 '2'일때,창 안보이게 하기
   print('- 창 안보이는 모드')
 chrome_options.add_argument('--no-sandbox')
