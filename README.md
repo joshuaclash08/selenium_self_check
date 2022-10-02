@@ -28,14 +28,6 @@ https://www.python.org/downloads/release/python-3913/ << 여기서 자기 컴퓨
 
 ![githubDOWN](https://user-images.githubusercontent.com/61219866/189377601-923f0c70-1fa8-4aff-ae50-d9bbb8a91a8b.png)
 
-압축을 풀어주신 다음에 `install.bat` 를 실행해주세요 (selenium 모듈 다운받아줌)
-
-무슨 패키지를 다운받는지 알고싶으면 `requirements.txt` 를 확인해주세요
-
-![image](https://user-images.githubusercontent.com/61219866/189472465-6fda4147-e130-4d46-82dc-8e0d57cf4ce5.png) ![image](https://user-images.githubusercontent.com/61219866/189472862-04f6d8c3-bf78-40c8-9b2e-1b67075fcd6a.png)
-
-패키지를 다 다운받고 창이 닫아지면 다운로드가 완료된거임
-
 # 3. json 개인정보 설정방법
 
 `User_Information.json`파일을 열어주세요 (메모장으로 열어도 상광 없음)
