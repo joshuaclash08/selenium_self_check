@@ -125,7 +125,6 @@ EX)
 #
 **콘솔창에 이런거 뜨는게 정상임**
 ![just_know](https://user-images.githubusercontent.com/61219866/189515967-833fa28d-ab84-412a-bd8f-b89b759c591f.png)
-![jobb](https://user-images.githubusercontent.com/61219866/189516052-d20482fb-9af9-486e-8ccb-62b016b9df27.png)
 
 # 5. 오류 발생시
 업데이트나 자가진단 설문조사 목록이 변경되거나 등등.....
